@@ -7,6 +7,7 @@ public class Rectangle extends Shape {
         this.wid = w;
     }
 
+    @Override
     public void area(){
         System.out.println("The area of the rectangle is " + len * wid);
     }

@@ -6,6 +6,7 @@ public class Square extends Shape {
         this.side = s;
     }
 
+    @Override
     public void area() {
         System.out.println("The area of the square is " + side * side);
     }

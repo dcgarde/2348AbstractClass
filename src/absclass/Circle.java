@@ -5,6 +5,8 @@ public class Circle extends Shape {
     public Circle(double r){
         this.rad = r;
     }
+
+    @Override
     public void area(){
         System.out.println("The area of the circle is " + pie * rad * rad);
     }
